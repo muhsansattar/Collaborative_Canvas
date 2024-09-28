@@ -1,0 +1,240 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  padding-top: 4vh;
+}
+
+.title {
+  color: #61dafb;
+  background-color: #282c34;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 4vh;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.canvas-outer-box {
+  background-color: #282c34;
+}
+
+.canvas {
+  background-color: white;
+  cursor: crosshair;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.canvas-settings-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 4vh;
+  max-width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.canvas-settings-div1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4vh;
+}
+
+.icon {
+  height: 2rem;
+  width: 2rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25rem;
+}
+
+.select-color {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.select-color:hover {
+  background-color: #bababa;
+}
+
+.select-color div {
+  border-radius: 1000px;
+  transition-duration: 0.2s;
+}
+
+.select-color div:hover {
+  border-radius: 12px;
+  transition-duration: 0.2s;
+}
+
+.width-setting {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  color: white;
+  margin-top: 2vh;
+  text-align: left;
+}
+
+.width-setting p {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.chat-div {
+  width: max-content;
+  background-color: whitesmoke;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.chat-input-box {
+  padding: 1rem;
+}
+
+.message-div-text {
+  text-align: left;
+  margin-left: 0.5rem;
+  margin-right: auto;
+}
+
+.message-sender-div-text {
+  text-align: right;
+  margin-left: auto;
+  margin-right: 0.5rem;
+}
+
+.message-system-div-text {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(220, 255, 220) !important;
+}
+
+.message-div {
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  width: fit-content;
+  height: fit-content;
+}
+
+.nickname-text {
+  color: white;
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+
+.nickname {
+  color: white;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.nickname-text-big{
+  font-weight: 900;
+  font-size: 2.25rem;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 4vh;
+}
+
+
+.button-19 {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 8px 12px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: fit-content;
+  height: fit-content;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+
+.input {
+padding: 5px 12px;
+font-size: 14px;
+line-height: 20px;
+color: #24292e;
+vertical-align: middle;
+background-color: #ffffff;
+background-repeat: no-repeat;
+background-position: right 8px center;
+border: 1px solid #e1e4e8;
+border-radius: 6px;
+outline: none;
+box-shadow: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;
+}
+.input:focus{
+    border-color: #0366d6;
+    outline: none;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}

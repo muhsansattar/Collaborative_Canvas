@@ -1,31 +1,94 @@
-# Collaborative Whiteboard App
-Is a online collaborative whiteboard app, where users can draw and chat on a public whiteboard or create their own private rooms with private chat and private whiteboard visible only to them. They can than share their private room code and other people will be able to join. They can also download the whiteboard as an image or mint it as an NFT (on mumbai testnet network).
+## My Project
+
+
+## Collaborative Whiteboard App
+
+
+Welcome to the Collaborative Whiteboard App! This application allows multiple users to draw, collaborate, and share ideas on a virtual whiteboard while minting and managing NFTs.
+
 
 Please leave a ⭐ if you like it.
 
-![Whiteboard App Preview](./whiteboard-app-preview.png)
+![whiteboard-app-preview - Copy](https://github.com/user-attachments/assets/ce7a8bf8-1416-41ce-8584-21fc39305501)
 
-## Try It Out
-You can try it [here](https://tijan.dev/).
 
-If you find any **errors** ⛔, please report them to [errors@tijan.dev](mailto:errors@tijan.dev) thanks 🙏.
+## Features
 
-## Technologies
-For this project I used:
-- [React](https://reactjs.org/) - framework I used to create frontend
-- [TypeScript](https://www.typescriptlang.org/) - used in frontend
-- [Solidity](https://soliditylang.org/) - for NFT smart contract
-- [Moralis](https://moralis.io/) - for connecting wallet, uploading to IPFS and minting NFT
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [NodeJS](https://nodejs.org/en/) and
-- [Socket.io](https://socket.io/) - both to create backend
+- Real-time collaboration on the whiteboard.
+- Users can draw and share their ideas instantly.
+- Mint unique drawings as NFTs using Moralis and Solidity.
+- Upload drawings to IPFS for decentralized storage.
+- User authentication and wallet connection through Moralis.
 
-## About Me
-Hi! 👋 I'm Tijan, passionate **blockchain developer** from Slovenia. Take a look at my portfolio website [here](https://tijan.dev).
 
-You can get in touch with me through my [website](https://tijan.dev), contact me on [twitter](https://twitter.com/0xTijan) or you can send me an email to [contactme@tijan.dev](mailto:contactme@tijan.dev).
+## Technologies Used
 
-Do you like my work? You can support me by donating to this address: 0xC4C6A0bc6648a4F343bd86D7C48C9967530fbB48
+This project utilizes the following technologies:
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+- **React**: The framework used to create the frontend of the application.
+- **TypeScript**: A typed superset of JavaScript used in the frontend for type safety.
+- **Solidity**: Used for creating the NFT smart contract.
+- **Moralis**: For wallet connectivity, uploading drawings to IPFS, and minting NFTs.
+- **CSS**: For styling the application.
+- **Node.js**: Used to build the backend server.
+- **Socket.io**: For enabling real-time communication between users on the whiteboard.
+
+
+## 🌐 Socials:
+
+[![Upwork](https://img.shields.io/badge/upwork-%2230175C2.svg?logo=Upwork&logoColor=green)](https://www.upwork.com/freelancers/~01b8262a0ffa2f4860)
+[![fiverr](https://img.shields.io/badge/fiverr-%230769AD.svg?logo=fiverr&logoColor=green)](https://www.fiverr.com/gold_medalist?source=gig_page)
+
+## 💻 Tech Stack:
+
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=white)
+![React.js](https://img.shields.io/badge/React.js-%2361DAFB.svg?style=for-the-badge&logo=React&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-%23000000.svg?style=for-the-badge&logo=Next.js&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=for-the-badge&logo=Vue.js&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-%23764ABC.svg?style=for-the-badge&logo=Redux&logoColor=white)
+![Redux Thunk](https://img.shields.io/badge/Redux_Thunk-%23764ABC.svg?style=for-the-badge&logo=Redux&logoColor=white)
+![Redux-Toolkit](https://img.shields.io/badge/Redux_Toolkit-%23764ABC.svg?style=for-the-badge&logo=Redux&logoColor=white)
+![React Query](https://img.shields.io/badge/React_Query-%23F3B71B.svg?style=for-the-badge&logo=React&logoColor=white)
+![Formik](https://img.shields.io/badge/Formik-%2361DAFB.svg?style=for-the-badge&logo=Formik&logoColor=white)
+![React Hook Form](https://img.shields.io/badge/React_Hook_Form-%2361DAFB.svg?style=for-the-badge&logo=React&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+![HTML](https://img.shields.io/badge/XHTML-%23F58025.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+![CSS/CSS3](https://img.shields.io/badge/CSS/CSS3-%231572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
+![SASS/LESS](https://img.shields.io/badge/SASS/LESS-%23CC6699.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![jQuery](https://img.shields.io/badge/jQuery-%230769AD.svg?style=for-the-badge&logo=jQuery&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=for-the-badge&logo=Bootstrap&logoColor=white)
+![Material-UI](https://img.shields.io/badge/Material_UI-%231976D2.svg?style=for-the-badge&logo=Material-UI&logoColor=white)
+![AntD](https://img.shields.io/badge/AntD-%230170FE.svg?style=for-the-badge&logo=Ant-Design&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-%2338B2AC.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white)
+![Node JS](https://img.shields.io/badge/Node_JS-%23339933.svg?style=for-the-badge&logo=Node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-%23000000.svg?style=for-the-badge&logo=Express&logoColor=white)
+![Nest.js](https://img.shields.io/badge/Nest.js-%23E0234E.svg?style=for-the-badge&logo=NestJS&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-%E10098.svg?style=for-the-badge&logo=GraphQL)
+![Prisma.js](https://img.shields.io/badge/Prisma.js-%2D2D2E2E.svg?style=for-the-badge&logo=Prisma)
+![MySQL](https://img.shields.io/badge/MySQL-%4479A1.svg?style=for-the-badge&logo=MySQL)
+![MongoDB](https://img.shields.io/badge/MongoDB-%47A248.svg?style=for-the-badge&logo=MongoDB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%336791.svg?style=for-the-badge&logo=PostgreSQL)
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [Yarn](https://yarnpkg.com/) (optional, but recommended)
+
+### Installation
+
+1. Clone the repository:
+
+   - git clone https://github.com/yourusername/collaborative-whiteboard-app.git
+   - cd collaborative-whiteboard-app
+   - cd client
+   - npm install
+   - cd ../server
+   - npm install
+   - npm start
+   - cd ../client
+   - npm start
+   - Open your browser and navigate to http://localhost:3000 to access the Collaborative Whiteboard App.
